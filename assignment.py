@@ -100,5 +100,10 @@
 # celsius = (fahrenheit - 32)/1.8
 # print('%0.1f degree fahrenheit is = %0.1f degree celsius' %(fahrenheit, celsius))
 
+# problem 5 - Convert Kilometers to Miles
+# kilometers = float(input('Enter the kilometers: '))
+# conv_factor = 0.621371
+# miles = kilometers * conv_factor
+# print('%0.3f kilometers is = %0.3f miles' %(kilometers, miles))
 
 
