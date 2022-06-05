@@ -106,4 +106,35 @@
 # miles = kilometers * conv_factor
 # print('%0.3f kilometers is = %0.3f miles' %(kilometers, miles))
 
+# prblem-6 Find the area of rectangle
+# Length = int(input('Enter the length: '))
+# Width = int(input('Enter the width: '))
+# Area = Length * Width
+# print('Area is: ', Area)
 
+
+# problem-7 Find the area of circle
+# import math
+# radius = float(input('Enter the radius: '))
+# Area = math.pi * radius * radius
+# print('Area is: ', Area)
+
+
+# problem 8- Find the area of sqaure
+# Arm = float(input('Enter the Arm: '))
+# Area = Arm * Arm
+# print('Area is: ', Area)
+
+# problem 9 - Find the area of rhombus
+# Diagonal1 = float(input('Enter the Diagonal1: '))
+# Diagonal2 = float(input('Enter the Diagonal2: '))
+# Area = (Diagonal1 * Diagonal2) / 2
+# print('Area is: ', Area)
+
+# problem 10 - Find the Area and Volume of a Sphere
+import math
+radius = float(input('Enter the radius: '))
+Area = 4 * math.pi * radius * radius
+Volume = (4/3) * math.pi * radius * radius * radius
+print('Area is: ', Area)
+print('Volume is: ', Volume)
